@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <meta name="viewport" content="widtth= device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">Survey Form</h1>
+        <h4 id="subheading"><i>Thank you for participating in the survey</i></h4>
+    </div>
+    <form>
+        <div id="content1">
+            <label>Name</label><br><br>
+            <input type="text"name="name" placeholder="Enter your name" class="box"><br><br>
+            
+            <label>Email</label><br><br>
+            <input type="text"name="email" placeholder="Enter your email-id" class="box"><br><br>
+            
+            <label>Age</label><br><br>
+            <input type="text"name="Age" placeholder="Enter your Age" class="box"><br><br>
+            <label>Qualification</label><br><br>
+       
+        <div id="option1">
+            <select>
+                <option name="Select your Qualification">Your Qualification</option>
+                <option value="Matriculation">Matriculation</option>
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="Postgraduate">Postgraduate</option>
+                <option value="Other">Other</option>
+                <option value="None">None</option>
+            </select>
+        </div>
+        <br>
+        <label id="head1">Select your Specialisation</label><br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp Engineering <br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp Medical Science <br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp Marketing <br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp Other <br><br>
+        <label>Experience level</label><br><br>
+        <div id="option2">
+            <select>
+                <option name="Select your option">Select your option</option>
+                <option value="0-3 yrs">0-3 yrs</option>
+                <option value="3-5 yrs">3-5 yrs</option>
+                <option value="5+ yrs">5+ yrs</option>
+            </select>
+        </div><br>
+        <label id="head2">Preferred work type</label><br><br>
+        <div id="content2">
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp Remote <br><br>
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp Work from home <br><br>
+            <input type="checkbox" name="checkbox" class="larger">&nbsp&nbsp Hybrid<br><br>
+        </div>
+        <label id="head2"> Any comments or suggestion ?</label><br><br>
+        <div class="comment-box">
+        <textarea name="comment" placeholder="Enter your comment here..."></textarea><br>
+        <button><h3>Submit</h3></button>
+        </div>
+    </form>
+</body>
+</html>

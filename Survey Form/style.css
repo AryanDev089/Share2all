@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 217, 251);
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 1.8em;
+}
+#subheading{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: rgba(245, 242, 242, 0.846);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+form .box{
+    width: 98%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+#option2 select{
+    width: 98%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+#content2{
+    margin-top: 10px;
+}
+input{
+    padding-left: 10px;
+}
+.comment-box textarea{
+    width: 98%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+}
+button{
+    width: 98%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: rgb(47, 49, 46);
+    border: none;
+    color: rgb(255,255,2555);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+textarea::placeholder{
+    position: relative;
+    top: 8px;
+    left: 1px;
+    width: 70%;
+}
+input::placeholder{
+    font-size: 1.1em;
+    position: relative;
+    left: 5px;
+    width: 50%;
+    font-weight: 500;
+}
